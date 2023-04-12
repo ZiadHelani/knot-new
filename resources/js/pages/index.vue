@@ -27,5 +27,16 @@
     >
       Go back home
     </RouterLink>
+    <Api />
   </div>
 </template>
+
+<script>
+import Api from '../layouts/components/api.vue'
+
+export default {
+  components:{
+    Api,
+  },
+}
+</script>

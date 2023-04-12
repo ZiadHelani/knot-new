@@ -1,5 +1,12 @@
 <template>
   <div>
-    <h1>Contact Us</h1>
+    <h5>Write Your Message : </h5>
+    <div class="message mt-4">
+      <VTextarea
+        clearable
+        label="Write Your Message here"
+        variant="outlined"
+      />
+    </div>
   </div>
 </template>

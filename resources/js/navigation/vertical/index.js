@@ -8,6 +8,36 @@ export default [
     icon: { icon: 'tabler-smart-home' },
   },
   {
+    title: 'Content',
+    icon: { icon: 'tabler:edit' },
+    children:[
+      {
+        title:'Edit Profile',
+        to: 'edit-profile',
+      },
+      {
+        title:'Links',
+        to: 'links',
+      },
+      {
+        title:'About Me',
+        to: 'about-me',
+      },
+      {
+        title:'Social Icons',
+        to: 'social-icons',
+      },
+      {
+        title:'Gallery',
+        to: 'gallery',
+      },
+      {
+        title:'Business Page',
+        to: 'business-page',
+      },
+    ],
+  },
+  {
     title: 'Analytics',
     to: { name: 'analytics' },
     icon: { icon: 'tabler:brand-google-analytics' },
